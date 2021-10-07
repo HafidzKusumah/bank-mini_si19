@@ -17,38 +17,63 @@
 				echo "<div class='notif'>Maaf, email yang kamu masukan sudah terdaftar</div>";
 			}
 		?>
+
+		<center><h1>FORM PENYETORAN</h1></center>
 		<div class="element-form">
-			<label>Nama Lengkap</label>
-			<span><input type="text" name="nama_lengkap" value="<?php echo $nama_lengkap; ?>" /></span>
+			<label>NAMA PEMILIK REKENING</label>
+			<p><i>Name Of Account Holder</i></p>
+			<span><input type="text" name="" value="" /></span>
+		</div>
+		
+		<div class="element-form">
+			<label>NO. TELP. PENYETOR</label>
+			<p><i>Phone Number</i></p>
+			<span><input type="text" name="" value="" /></span>
 		</div>
 
 		<div class="element-form">
-			<label>Email</label>
-			<span><input type="text" name="email" value="<?php echo $email; ?>" /></span>
+			<label>ALAMAT</label>
+			<p><i>Depositor's Address</i></p>
+			<span><textarea name="""></textarea></span>
 		</div>
 
-		<div class="element-form">
-			<label>Nomor Telepon / Handphone</label>
-			<span><input type="text" name="phone" value="<?php echo $phone; ?>" /></span>
+		<label> <b>Jenis Rekening </b></label>
+		<select class="element-form">
+			<option selected>JENIS REKENING</option>
+			<option value="1">GIRO / Checking Account</option>
+			<option value="2">TABUNGAN / Savings</option>
+			<option value="3">PINJAMAN / Loan</option>
+		  </select>
+
+		<div class="element-form" >
+			<label>NO. REKENING </label>
+			<p><i>Account Number</i></p>
+			<span><input type="text" name="" value="" /></span>
 		</div>
 
-		<div class="element-form">
-			<label>Alamat</label>
-			<span><textarea name="alamat"><?php echo $alamat; ?></textarea></span>
+		<label> <b>  Jenis Transaksi </b></label>
+		<select class="element-form">
+			<option selected>JENIS TRANSAKSI</option>
+			<option value="1">LOKAL / Local</option>
+			<option value="2"> ANTAR CABANG / Interbranch</option>
+		  </select>
+
+		  <div class="element-form">
+			<label>Tanda Tangan Penyetor</label>
+			<p><i>Upload Tanda Tangan Penyetor</i></p>
+			<span><input type="file" id="myfile" name="myfile" value=""><br><br></span>
 		</div>
-	
-		<div class="element-form">
-			<label>Password</label>
-			<span><input type="password" name="password" /></span>
-		</div>	
+
+
+		  	<label> <b> Jenis Mata Uang </b></label>
+			<select class="element-form">
+			  <option selected>MATA UANG</option>
+			  <option value="1">RUPIAH / Local Currency</option>
+			  <option value="2">VALUTA ASING / Foreign Currency</option>
+			</select> 
 
 		<div class="element-form">
-			<label>Re-type Password</label>
-			<span><input type="password" name="re_password" /></span>
-		</div>	
-
-		<div class="element-form">
-			<span><input type="submit" value="register" /></span>
+			<span><input type="submit" value="SEND" /></span>
 		</div>	
 	
 	</form>
