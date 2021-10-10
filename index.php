@@ -52,7 +52,7 @@
 							}else{
 								echo "<a href='".BASE_URL."index.php?page=login'>Login</a>
 									 <a href='".BASE_URL."index.php?page=form_penyetoran'>Form Penyetoran</a>
-									 <a href='".BASE_URL."index.php?page=form_permintaan'>Form Permintaan</a>";
+									 <a href='".BASE_URL."index.php?page=form_permohonan'>Form Permohonan</a>";
 							}
 						?>
 					</div>
