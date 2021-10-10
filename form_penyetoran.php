@@ -5,7 +5,7 @@
 		<?php
 			
 			if($notif == "require"){
-				echo "<div class='notif'>Maaf, kamu harus melengkapi form dibawah ini</div>"
+				echo "<div class='notif'>Maaf, kamu harus melengkapi form dibawah ini</div>";
 			}
 		?>
 		
