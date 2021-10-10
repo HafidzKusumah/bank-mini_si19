@@ -4,9 +4,6 @@
 	
 		<?php
 			
-			if($notif == "require"){
-				echo "<div class='notif'>Maaf, kamu harus melengkapi form dibawah ini</div>";
-			}
 		?>
 		
 		<center><h1>FORM PENYETORAN</h1></center>
@@ -70,6 +67,6 @@
 	
 	</form>
 
-	<!--END FORM-->
+	<!--END FORM
 	
 </div>
