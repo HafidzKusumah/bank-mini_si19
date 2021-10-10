@@ -1,13 +1,8 @@
 <div id="container-user-akses">
 
-	<form action="<?php echo BASE_URL."proses_register.php"; ?>" method="POST">
+	<form action="<?php echo BASE_URL."proses_penyetoran.php--"; ?>" method="POST">
 	
 		<?php
-			$notif = isset($_GET['notif']) ? $_GET['notif'] : false;
-			$nama_lengkap = isset($_GET['nama_lengkap']) ? $_GET['nama_lengkap'] : false;
-			$email = isset($_GET['email']) ? $_GET['email'] : false;
-			$phone = isset($_GET['phone']) ? $_GET['phone'] : false;
-			$alamat = isset($_GET['alamat']) ? $_GET['alamat'] : false;
 			
 			if($notif == "require"){
 				echo "<div class='notif'>Maaf, kamu harus melengkapi form dibawah ini</div>";
@@ -17,8 +12,9 @@
 				echo "<div class='notif'>Maaf, email yang kamu masukan sudah terdaftar</div>";
 			}
 		?>
-
+		
 		<center><h1>FORM PENYETORAN</h1></center>
+		<!--FORM-->
 		<div class="element-form">
 			<label>NAMA PEMILIK REKENING</label>
 			<p><i>Name Of Account Holder</i></p>
@@ -34,7 +30,7 @@
 		<div class="element-form">
 			<label>ALAMAT</label>
 			<p><i>Depositor's Address</i></p>
-			<span><textarea name="""></textarea></span>
+			<span><textarea name="" value""></textarea></span>
 		</div>
 
 		<label> <b>Jenis Rekening </b></label>
@@ -77,5 +73,7 @@
 		</div>	
 	
 	</form>
+
+	<!--END FORM-->
 	
 </div>
